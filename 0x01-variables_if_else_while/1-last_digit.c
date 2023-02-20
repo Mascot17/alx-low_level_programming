@@ -4,25 +4,26 @@
 /**
   * main - entry point
   *
-  * return: Always retun 0
+  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int n;
+	int n, lastd;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if ( n > 5 )
+	lastd - n % 10;
+	if (ladtd  > 5)
 	{
-		printf("%s and is greater than 5\n", n);
+		printf("last digit of %d is %d and is greater than 5\n", n, lastd);
 	}
-	else if ( n == 0 )
+	else if (lastd == 0)
 	{
-		printf("%s and is 0\n", n);
+		printf("last digit of %d is %d  and is 0\n", n, lastd);
 	}
-	else
+	else if (lastd < 6 && lastd != 0)
 	{
-		printf
+		printf("last digit of %d is %d and is less than 6 and not 0\n", n, lastd);
 	return (0);
 }
