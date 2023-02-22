@@ -3,7 +3,6 @@
 
 /**
   * print_alphabet_x10 - print alphabets
-  * Return: Always 0 (success)
   *
   */
 
@@ -18,5 +17,4 @@ void print_alphabet_x10(void)
 			_putchar(letter);
 	_putchar('\n');
 	}
-	return (0);
 }
