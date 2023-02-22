@@ -1,14 +1,19 @@
 #include "main.h"
 
 /**
-  * main - entry point
+  * print_alphabet - entry point
   * Return: Always 0 (Success)
   */
-int main(void)
+int print_alphabet(void)
 {
-	char i;
-
-	for  (i = '%s')
-	putchar("\_putchar is %s\n", i);
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 	return (0);
 }
