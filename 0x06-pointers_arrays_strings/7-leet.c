@@ -2,11 +2,11 @@
 
 /**
   * leet - switches some characters for others
-  * @s: input string
+  * @p: input string
   * Return: string after some characters have been switched
   */
 
-char *leet(char *s)
+char *leet(char *p)
 {
 
 	int i, j;
@@ -21,5 +21,5 @@ char *leet(char *s)
 				s[i] = b[j];
 		}
 	}
-	return (s);
+	return (p);
 }
