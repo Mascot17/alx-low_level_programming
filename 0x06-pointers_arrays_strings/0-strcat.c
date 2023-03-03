@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
-  *_strcat - function that conatenate two strings
-  *@dest: String input
-  *@src: String input
+  * _strcat - function that conatenate two strings
+  * @dest: String input
+  * @src: String input
   *
-  *Return: newly concatenated dest
+  * Return: newly concatenated dest
   */
 
 char *_strcat(char *dest, char *src)
