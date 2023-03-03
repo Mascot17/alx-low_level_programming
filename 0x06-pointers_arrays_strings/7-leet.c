@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-  *leet - switches some characters for others
-  *@s: input string
-  *Return: string after some characters have been switched
+  * leet - switches some characters for others
+  * @s: input string
+  * Return: string after some characters have been switched
   */
 
 char *leet(char *s)
@@ -17,7 +17,7 @@ char *leet(char *s)
 	{
 		for (j = 0; j < 10; j++)
 		{
-			if (s[i] == a[j]
+			if (s[i] == a[j])
 				s[i] = b[j];
 		}
 	}
